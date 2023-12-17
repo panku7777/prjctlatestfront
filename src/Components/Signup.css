@@ -1,0 +1,47 @@
+/* Shared CSS file (styles.css) */
+
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.template {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form_container {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-2 {
+    margin-bottom: 10px;
+}
+
+.custom-input-label {
+    margin-left: 5px;
+}
+
+.d-grid {
+    margin-top: 15px;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.ms-2 {
+    margin-left: 10px;
+}
+
+
+.signup {
+    background: url('https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg') center/cover no-repeat;
+}
