@@ -1,59 +1,47 @@
-/* Add this CSS to your stylesheets or in-line style */
-
-body {
-    margin: 0; /* Remove default body margin */
-    font-family: 'Helvetica', sans-serif; /* Change the font family for the entire body */
+/* LoginStyles.css */
+.login-body{
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg'); /* Updated background image URL */
 }
 
-.login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add box shadow for a subtle lift */
-    background: url('https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg') center/cover no-repeat;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+ 
+  background-size: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
-.login form {
-    background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value for transparency */
-    padding: 20px;
-    border-radius: 8px;
+.form {
+  width: 40%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
 }
 
-.login h3 {
-    text-align: center;
-    color: #2c3e50; /* Dark blue color for the heading */
-    font-family: 'Georgia', serif; /* Change the font family for the heading */
+.text-field {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
 }
 
-.form-control {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #3498db; /* Border color for input fields */
-    border-radius: 4px;
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.custom-input-label {
-    margin-left: 5px;
-}
-
-.d-grid {
-    margin-top: 15px;
-}
-
-.custom-input-label {
-    display: flex;
-    align-items: center;
-}
-
-.text-left a, .text-right a {
-    margin-left: 10px;
-    color: #3498db; /* Blue color for the links */
-    text-decoration: none; /* Remove underlines from links */
-    font-weight: bold; /* Make the links bold */
-}
-
-.text-left a:hover, .text-right a:hover {
-    text-decoration: underline; /* Underline the links on hover */
+.typography {
+  text-align: center;
 }

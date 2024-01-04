@@ -1,5 +1,5 @@
 const mongoose=require("mongoose")
-var mongoUrl="mongodb+srv://gauthamsajus686:123@cluster0.odyrbgz.mongodb.net/Elibrary"
+var mongoUrl="mongodb+srv://swetha:123@cluster0.mruuu3j.mongodb.net/Elibrary?retryWrites=true&w=majority"
 mongoose.connect(mongoUrl)
 .then(()=>{
     console.log("Database Connected")
